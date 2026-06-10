@@ -1,7 +1,6 @@
 export function asset(path) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-  const cleanPath = path.startsWith("/") ? path : `/${path}`;
-  return `${basePath}${cleanPath}`;
+  return `${basePath}${path}`;
 }
 
 export const site = {

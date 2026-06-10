@@ -78,6 +78,17 @@ export default function Footer() {
               </a>
             ))}
           </div>
+                                        <a
+          href="https://nourgamil.github.io/Main-Portfolio/"
+          target="_blank"
+          rel="noreferrer"
+          className="flex justify-center items-center gap-[20px]"
+          >
+            <span className="">Copyright © 2026 Nour</span>
+            <div className="flex max-sm:h-[44px] max-sm:w-[44px] h-[54px] w-[54px] items-center justify-center rounded-full border border-[white]/50 bg-[white]/[0.5] backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:scale-110 hover:border-[#fdc700]/40 hover:shadow-[0_18px_45px_rgba(253,199,0,0.12)]">
+              <img className="max-sm:h-[24px] max-sm:w-[24px] h-[34px] w-[34px]" src="images/favicon.ico" alt="" />
+            </div>
+          </a>
         </div>
       </div>
     </footer>
